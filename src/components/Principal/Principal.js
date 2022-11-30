@@ -2,7 +2,7 @@ import "../Principal/Principal.css";
 
 const Principal = () => {
   return (
-    <Principal>
+    <>
       <div className="Principal__container">
         <div className="Principal__title">
           <div className="main__greeting">
@@ -36,7 +36,7 @@ const Principal = () => {
           </div>
         </div>
       </div>
-    </Principal>
+    </>
   );
 };
 export default Principal;
